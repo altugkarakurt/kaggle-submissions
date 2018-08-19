@@ -5,4 +5,4 @@ This is the Hello World challenge for image classification where we are given th
 Since I've been down this road before during my undergrad I knew the fancy tricks like chasing rotational invariance or bootstrapping do small improvements only. I only did scaling to map all pixel values in [0,1] instead of [0,255] and reshped them from 1D vectors to the original square images.
 
 ## Learning Model
-Instead of using such feature engineering methods to improve a dumb learning methdos like fully connected MLP (which I did back in the day and learned a lot), I just followed Yann LeCun's classic convolutional neural network.
+Instead of using such feature engineering methods to improve a dumb learning methdos like fully connected MLP (which I did back in the day and learned a lot), I just followed Yann LeCun's classic convolutional neural network. I used `keras` with `Tensorflow` and thinking about how painful it was to write a CNN myself (which I ended up giving up), I felt like I got away with something! This was my first experience with keras, but it certainly won't be the last.
