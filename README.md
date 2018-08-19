@@ -1,6 +1,6 @@
 ## Kaggle Submissions
 
-This repository hosts my submissions for Kaggle competitions. I host the code related to each competition in a separate folder with a separate README that describes the methods I used for my best submission. A summary of my submissions can be found beow.
+This repository hosts my submissions for Kaggle competitions. I host the code related to each competition in a separate folder with a separate README that describes the methods I used for my best submission. A summary of my submissions can be found below.
 
 | Competition | Score | Rank | Task | Methods Used |
 |:-----------:|:-----:|:----:|:----:|:-----------:|
