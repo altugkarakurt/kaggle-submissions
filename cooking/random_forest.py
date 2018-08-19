@@ -5,7 +5,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import RandomForestClassifier
 
 """-------------------- LOADING DATA --------------------""" 
-dataset = json.load(open("../input/train.json", "r"))
+dataset = json.load(open("../input/cooking_train.json", "r"))
 
 # Mine all ingredients and cuisines(labels)
 all_ings, all_labels = [], []
@@ -31,7 +31,7 @@ for idxs in feature_idxs:
 
 print("Training feature extraction done.")
 
-test_dataset = json.load(open("../input/test.json", "r"))
+test_dataset = json.load(open("../input/cooking_test.json", "r"))
 test_feature_idxs = [np.array([all_ings.index(ing) 
 					 for ing in dish["ingredients"] if(ing in all_ings)])
 					 for dish in test_dataset]
